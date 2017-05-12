@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+export(stanmodels)
+import(methods)
+import(rstan)
+importFrom(Rcpp,loadModule)
+useDynLib(ttt, .registration = TRUE)

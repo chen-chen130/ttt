@@ -1,0 +1,16 @@
+Package: ttt
+Type: Package
+Title: MCMC chain using stan
+Version: 1.0
+Date: 2017-05-11
+Author: Chen
+Maintainer: Chen <chen_chen130@hotmail.com>
+Description: Utilizing propensity score method, we provide an averaged causal effect (ACE) to estimate the long term intervention effect in the original intent to treat (ITT) cohort.
+License: GPL
+Depends: R (>= 3.0.2), Rcpp (>= 0.12.6), methods (>= 3.3.1)
+Imports: rstan (>= 2.15.1), rstantools (>= 1.1.0)
+LinkingTo: StanHeaders (>= 2.15.0.1), rstan (>= 2.15.1), BH (>=
+        1.62.0.1), Rcpp (>= 0.12.6), RcppEigen (>= 0.3.2.8.1)
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2017-05-12 01:46:43 UTC; CHEM2Z
